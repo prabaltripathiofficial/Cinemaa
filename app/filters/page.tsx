@@ -80,12 +80,12 @@ function FiltersPageContent() {
       <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
         <button
           onClick={() => navigateToResults(true)}
-          className="bg-transparent border-2 border-red-600 text-red-500 font-bold py-3 px-8 rounded-lg hover:bg-red-600 hover:text-white transition-all duration-300 w-full sm:w-auto">
+          className="bg-transparent border-2 border-red-600 text-red-500 font-bold py-3 px-8 rounded-lg hover:bg-red-600 cursor-pointer hover:text-white transition-all duration-300 w-full sm:w-auto">
           Suggest For Me
         </button>
         <button
           onClick={() => navigateToResults(false)}
-          className="bg-red-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-red-700 transition-all duration-300 w-full sm:w-auto">
+          className="bg-red-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-red-700 transition-all duration-300 w-full cursor-pointer sm:w-auto">
           Show Movies
         </button>
       </div>
